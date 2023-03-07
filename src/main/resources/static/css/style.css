@@ -1,0 +1,109 @@
+body {
+	background: #e2e2e2 !important;
+	font-family: "Lato", sans-serif;
+}
+
+.bg-primary {
+	background: #009688 !important;
+}
+
+.banner {
+	width: 100%;
+	height: 36em;
+	background: url(../img/red_rose.jpeg);
+	background-size: cover;
+	color: white;
+}
+
+.card {
+	padding: 20px;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+}
+
+.navbar-nav {
+	right: auto;
+}
+
+/* sidebar css*/
+.sidebar {
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	z-index: 1;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+	background: #e2e2e2;
+}
+
+.sidebar .divider {
+	height: .5px;
+	width: 100%;
+	background: red;
+	margin-top: 10px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*content css */
+.content {
+	height: 100%;
+	margin-left: 25%;
+	transition: margin-left;
+}
+
+
+.openbtn {
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+}
+
+.openbtn:hover {
+	background-color: #444;
+}
+
+.myprofile_pic{
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+
+/* Search CSS */
+
+.search-container{
+	position: relative;
+}
+.search-result{
+	position: absolute;
+	background: white;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	display: none;
+}
